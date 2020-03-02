@@ -1,0 +1,7 @@
+/* pages/healthMenu/menu/menu.wxss */
+.title{
+  font-size:40rpx;
+  margin-left:10rpx;
+  margin-bottom: 20rpx;
+  font-weight: bold;
+}

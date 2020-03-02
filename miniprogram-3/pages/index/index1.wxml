@@ -1,0 +1,91 @@
+<view class="sec" wx:for='{{list}}' wx:for-index='index' wx:for-item='item'>
+  <view class="tu">
+    <image class="backpic" id="{{index}}" bindtap="sign" src="{{item.signImage}}"></image>
+    <view class="divliu">
+      <image class="liu" src="../images/liu.png"></image>
+      <view class="text">{{item.date}}</view>
+      <view class="line"></view>
+      <view class="day">{{item.today}}</view>
+    </view>
+    <view class="title">{{item.signTitle}}</view>
+    <view class="signed">签到</view>
+  </view>
+
+  <view class="bottom-line"></view>
+
+  <ul>
+    <li bindtap="click" id="{{item.date}}">
+      <view class="section">
+        <view class="one">
+          <view class="stitle">{{item.journalTitle}}</view>
+          <view class="tag">健康日志</view>
+          <view class="content">{{item.journalText}}</view>
+          <image class="edit" src="../images/bianji.png"></image>
+          <view class="edit-word">编辑于{{item.date}}</view>
+        </view>
+        <view class="two">
+          <image class="simg" src="{{item.journalImage}}"></image>
+        </view>
+        <view class="sline"></view>
+        <br clear="all" />
+      </view>
+    </li>
+    <li bindtap="clickVideo" id="{{item.date}}">
+      <view class="section">
+        <view class="one">
+          <view class="stitle">{{item.videoTitle}}</view>
+          <view class="tag">健身视频</view>
+          <view class="content">{{item.videoContent}}</view>
+          <image class="edit" src="../images/bianji.png"></image>
+          <view class="edit-word">编辑于{{item.date}}</view>
+        </view>
+        <view class="two">
+          <image class="simg" src="{{item.videoImage}}"></image>
+        </view>
+        <view class="sline"></view>
+        <br clear="all" />
+      </view>
+    </li>
+    <li bindtap="clickExample" id="{{item.date}}">
+      <view class="section">
+        <view class="one">
+          <view class="stitle">{{item.exampleTitle}}</view>
+          <view class="tag">养生案例</view>
+          <view class="content">{{item.exampleText}}</view>
+          <image class="edit" src="../images/bianji.png"></image>
+          <view class="edit-word">编辑于{{item.date}}</view>
+        </view>
+        <view class="two">
+          <image class="simg" src="{{item.exampleImage}}"></image>
+        </view>
+        <view class="sline"></view>
+        <br clear="all" />
+      </view>
+    </li>
+  </ul>
+  <!-- <view class="section">
+  <view class="one">
+    <view class="stitle">标题</view>
+    <view class="tag">标签</view>
+    <view class="content">这是一个标题所以这是标题</view>
+    <image class="edit" src="../images/bianji.png"></image> 
+    <view class="edit-word">编辑于2018 06</view>
+  </view>
+  <view class="two">
+    <image class="simg" src="../images/haha.jpg"></image>
+  </view>
+  <view class="sline"></view>
+  <br clear="all"/>
+</view> -->
+
+  <!-- <view class="tu">
+    <image class="backpic" src="../images/haha.jpg"></image>
+    <view class="divliu">
+      <image class="liu" src="../images/liu.png"></image>
+      <view class="text">2月19日</view>
+      <view class="line"></view>
+      <view class="day">今天</view>
+    </view>
+    <view class="title">月亮和星星</view>
+  </view> -->
+</view>

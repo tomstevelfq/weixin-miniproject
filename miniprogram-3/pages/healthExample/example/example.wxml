@@ -1,0 +1,6 @@
+<!--pages/healthExample/example/example.wxml-->
+<view>
+  <view class="title">{{title}}</view>
+  <rich-text class='html' nodes="{{content}}"></rich-text>
+</view>
+

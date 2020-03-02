@@ -1,0 +1,8 @@
+<!--pages/healthVideo/video/video.wxml-->
+<view>
+  <view class="title">{{title}}</view>
+  <view class="content">{{content}}</view>
+  <view class="video">
+    <video class="v" src="{{url}}" controls="true"></video>
+  </view>
+</view>

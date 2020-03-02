@@ -1,0 +1,52 @@
+/* pages/healthVideo/healthVideo.wxss */
+
+.page{
+  width:750rpx;
+  background-color: rgba(185, 184, 171, 0.041);
+}
+
+.clear:after{
+  content:'\200B';
+  clear:both;
+  display:block;
+  height:0;
+}
+
+.block{
+  background-color: white;
+  width:700rpx;
+  margin-left:25rpx;
+  height:200rpx;
+  border-radius: 40rpx;
+  box-shadow: 0 0 15rpx 7rpx rgba(0, 0, 0, 0.082);
+  margin-top:40rpx;
+  overflow: hidden;
+}
+
+.content{
+  float:left;
+  width:500rpx;
+  height:200rpx;
+}
+
+.img{
+  float:left;
+  width:200rpx;
+  height:200rpx;
+}
+
+.image{
+  width:200rpx;
+  height:200rpx;
+}
+
+.title{
+  font-weight: bold;
+  margin-left:20rpx;
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+}
+
+.text{
+  margin-left:20rpx;
+}

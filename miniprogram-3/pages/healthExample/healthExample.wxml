@@ -1,0 +1,14 @@
+<!--pages/healthExample/healthExample.wxml-->
+<view class="page">
+  <view wx:for='{{list1}}' wx:for-index='index' wx:for-item='item'>
+    <view class="block clear" id="{{index}}" bindtap="click">
+      <view class="content">
+        <view class="title">{{item.title}}</view>
+        <view class="text">{{item.text}}</view>
+      </view>
+      <view class="img">
+        <image class="image" src="{{item.exampleImage}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="section">
+  <image src="../images/riqi.png" class="img"></image>
+  <view class="title">{{date}}</view>
+  <view class="line"></view>
+  <view class="content" wx:for='{{list}}' wx:for-index='index' wx:for-item='item'>
+    <view class="content-title">{{item.title}}</view>
+    <view class="content-text">
+      <text>{{item.text}}</text>
+    </view>
+    <view class="clear images">
+      <view wx:for='{{item.imgUrls}}' wx:for-item='imgItem'>
+        <image class="content-img" src='{{imgItem}}'></image>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="option clear">
+      <image class="option-icon" src="../images/bianji2.png" id='{{index}}' bindtap="edit"></image>
+      <image class="option-icon" src="../images/delete.png" id='{{index}}' bindtap="delete"></image>
+      <view class="bianji">最近编辑于{{item.date}}</view>
+    </view>
+  </view>
+</view>
+
+<view id="save" hidden="{{hidden}}" bindtap="save">新建日志</view>

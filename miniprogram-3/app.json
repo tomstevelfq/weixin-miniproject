@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index1",
+    "pages/healthVideo/healthVideo",
+    "pages/healthJournal/editor/editor",
+    "pages/healthJournal/healthJournal",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/healthMenu/healthMenu",
+    "pages/healthJournal/edit/edit",
+    "pages/healthExample/healthExample",
+    "pages/healthAnalyse/healthAnalyse",
+    "pages/healthTest/healthTest",
+    "pages/healthVideo/video/video",
+    "pages/healthExample/example/example",
+    "pages/healthMenu/menu/menu",
+    "pages/healthAnalyse/analyse/analyse"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/fenxi.png",
+        "iconPath": "pages/images/fenxi.png",
+        "pagePath": "pages/healthAnalyse/healthAnalyse",
+        "text": "健康分析"
+      },
+      {
+        "selectedIconPath": "pages/images/index.png",
+        "iconPath": "pages/images/index.png",
+        "pagePath": "pages/index/index1",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/caipu.png",
+        "iconPath": "pages/images/caipu.png",
+        "pagePath": "pages/healthMenu/healthMenu",
+        "text": "健康菜谱"
+      },
+      {
+        "selectedIconPath": "pages/images/ceping.png",
+        "iconPath": "pages/images/ceping.png",
+        "pagePath": "pages/healthTest/healthTest",
+        "text": "体质测评"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

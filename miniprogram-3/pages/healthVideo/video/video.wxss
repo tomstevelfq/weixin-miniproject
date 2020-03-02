@@ -1,0 +1,19 @@
+/* pages/healthVideo/video/video.wxss */
+
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  font-weight:bold;
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+}
+
+.video{
+  margin:0 auto;
+}
+
+.v{
+  width:700rpx;
+  margin-left:25rpx;
+  margin-top:30rpx;
+}

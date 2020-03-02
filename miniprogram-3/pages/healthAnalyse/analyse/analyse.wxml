@@ -1,0 +1,6 @@
+<!--pages/healthAnalyse/analyse/analyse.wxml-->
+<view>
+  <view class="title">健康分析</view>
+  <rich-text class='html' nodes="{{content}}"></rich-text>
+</view>
+

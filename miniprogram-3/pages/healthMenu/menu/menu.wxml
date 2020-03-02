@@ -1,0 +1,5 @@
+<!--pages/healthMenu/menu/menu.wxml-->
+<view>
+  <view class="title">菜谱</view>
+  <rich-text class='html' nodes="{{content}}"></rich-text>
+</view>

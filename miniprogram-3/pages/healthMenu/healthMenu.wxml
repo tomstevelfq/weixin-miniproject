@@ -1,0 +1,20 @@
+<!--pages/healthMenu/healthMenu.wxml-->
+<view class="clear">
+  <icon class="icon" type="search"></icon>
+  <input class="input" bindinput="input"></input>
+  <view class="btn" bindtap="search">搜索</view>
+</view>
+
+<view class="page">
+  <view wx:for='{{list}}' wx:for-index='index' wx:for-item='item'>
+    <view class="block clear" id="{{index}}" bindtap="click">
+      <view class="content">
+        <view class="title">菜谱</view>
+        <view class="text">{{item.text}}</view>
+      </view>
+      <view class="img">
+        <image class="image" src="{{item.image}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
